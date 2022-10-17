@@ -1,0 +1,27 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Mon projet OpenClassrooms 3 OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss style.css",
+    "build": "postcss style.css -u autoprefixer cssnano -o ./build/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmrejen/ohmyfood.git"
+  },
+  "author": "Benoit Mrejen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmrejen/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/bmrejen/ohmyfood#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.9",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "sass": "^1.43.2"
+  }
+}
